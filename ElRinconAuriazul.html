@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>El Rincon Auriazul</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #222;
+        }
+
+        header {
+            background-color: #0e1b3b;
+            color: white;
+            padding: 15px;
+        }
+
+        header h1 {
+            margin: 0 0 8px 0;
+            font-size: 22px;
+        }
+
+        header a {
+            color: white;
+            margin-right: 12px;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #142449;
+            color: white;
+            padding: 30px 15px;
+        }
+
+        .hero h2 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #c69c2e;
+            color: #142449;
+            padding: 8px 16px;
+            text-decoration: none;
+            margin-top: 10px;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+
+        .btn2 {
+            display: inline-block;
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 25px 15px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        .club-info {
+            background-color: #f2efe6;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .oferta {
+            background-color: #c69c2e;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .oferta a {
+            background-color: #0e1b3b;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 8px;
+        }
+
+        footer {
+            background-color: #0e1b3b;
+            color: white;
+            padding: 15px;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: white;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>EL RINCON AURIAZUL</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#colecciones">Colecciones</a>
+            <a href="#club">El Club</a>
+            <a href="#datos">Datos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h2>Mas que un jersey, un estilo de porra</h2>
+        <p>Tienda y sitio informativo para la aficion de Pumas UNAM. Ropa streetwear, oversized, baggy y accesorios Y2K,
+            ademas de datos del equipo.</p>
+        <a href="#colecciones" class="btn">Explorar coleccion</a>
+        <a href="#club" class="btn2">Conocer al club</a>
+    </section>
+
+    <section id="colecciones">
+        <h3>Colecciones</h3>
+        <table>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Tallas</th>
+                <th>Color</th>
+            </tr>
+            <tr>
+                <td>Sudadera Oversized Puma 54</td>
+                <td>$690</td>
+                <td>S - XXL</td>
+                <td>Auriazul</td>
+            </tr>
+            <tr>
+                <td>Pants Baggy Cargo</td>
+                <td>$620</td>
+                <td>28 - 36</td>
+                <td>Onix</td>
+            </tr>
+            <tr>
+                <td>Jersey Retro Edicion CU</td>
+                <td>$850</td>
+                <td>S - XL</td>
+                <td>Azul y dorado</td>
+            </tr>
+            <tr>
+                <td>Gorra Y2K</td>
+                <td>$310</td>
+                <td>Unica</td>
+                <td>Plata y dorado</td>
+            </tr>
+        </table>
+
+        <div class="oferta">
+            <strong>Nueva coleccion Y2K disponible por tiempo limitado</strong>
+            <br>
+            <a href="#colecciones">Comprar ahora</a>
+        </div>
+    </section>
+
+    <section id="club">
+        <h3>El Club</h3>
+        <div class="club-info">
+            <p>Pumas UNAM nacio en 1954 dentro de Ciudad Universitaria y juega en el Estadio Olimpico Universitario. El
+                azul y el oro son los colores del equipo y tambien la identidad de la tienda.</p>
+            <p>Fundacion: 1954 &nbsp;|&nbsp; Titulos de liga: 7 &nbsp;|&nbsp; Aforo del estadio: 72,000 &nbsp;|&nbsp;
+                Sede: Ciudad Universitaria</p>
+        </div>
+    </section>
+
+    <section id="datos">
+        <h3>Datos y resultados</h3>
+        <p>Ultimos resultados (se ira actualizando mas adelante):</p>
+        <ul>
+            <li>Pumas vs Toluca: 2-1 (Victoria)</li>
+            <li>Necaxa vs Pumas: 1-1 (Empate)</li>
+            <li>Pumas vs America: 0-1 (Derrota)</li>
+            <li>Pumas vs Queretaro: 3-0 (Victoria)</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <p>Deja tu correo para avisos de nuevas colecciones:</p>
+        <input type="email" placeholder="tu correo">
+        <button>Suscribirme</button>
+    </section>
+
+    <footer>
+        <a href="#colecciones">Tienda</a>
+        <a href="#club">Club</a>
+        <a href="#contacto">Contacto</a>
+        <p>El Rincon Auriazul - Emiliano Merlin Samano - 2026</p>
+    </footer>
+
+</body>
+
+</html>
