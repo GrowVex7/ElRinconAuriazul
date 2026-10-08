@@ -1,233 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <title>El Rincon Auriazul</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            color: #222;
-        }
-
-        header {
-            background-color: #0e1b3b;
-            color: white;
-            padding: 15px;
-        }
-
-        header h1 {
-            margin: 0 0 8px 0;
-            font-size: 22px;
-        }
-
-        header a {
-            color: white;
-            margin-right: 12px;
-            text-decoration: none;
-        }
-
-        header a:hover {
-            text-decoration: underline;
-        }
-
-        .hero {
-            background-color: #142449;
-            color: white;
-            padding: 30px 15px;
-        }
-
-        .hero h2 {
-            font-size: 26px;
-            margin-bottom: 10px;
-        }
-
-        .btn {
-            display: inline-block;
-            background-color: #c69c2e;
-            color: #142449;
-            padding: 8px 16px;
-            text-decoration: none;
-            margin-top: 10px;
-            margin-right: 8px;
-            font-weight: bold;
-        }
-
-        .btn2 {
-            display: inline-block;
-            background-color: transparent;
-            border: 1px solid white;
-            color: white;
-            padding: 8px 16px;
-            text-decoration: none;
-            margin-top: 10px;
-        }
-
-        section {
-            padding: 25px 15px;
-        }
-
-        h3 {
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin-top: 15px;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid #ccc;
-        }
-
-        th,
-        td {
-            padding: 8px;
-            text-align: left;
-            font-size: 14px;
-        }
-
-        .club-info {
-            background-color: #f2efe6;
-            padding: 15px;
-            margin-top: 10px;
-        }
-
-        .oferta {
-            background-color: #c69c2e;
-            padding: 15px;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .oferta a {
-            background-color: #0e1b3b;
-            color: white;
-            padding: 8px 16px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 8px;
-        }
-
-        footer {
-            background-color: #0e1b3b;
-            color: white;
-            padding: 15px;
-            font-size: 13px;
-            margin-top: 20px;
-        }
-
-        footer a {
-            color: white;
-            margin-right: 10px;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pumas UNAM - El Rincón Auriazul</title>
+  <style>
+    body { font: 18px/1.55 Arial, sans-serif; max-width: 850px; margin: 40px auto; padding: 0 20px; color: #202833; }
+    header, footer { background: #eef3f8; padding: 18px 24px; border-radius: 10px; }
+    section { margin: 30px 0; }
+    h1, h2 { color: #183b60; }
+    h3 { color: #3a4f6e; }
+    .nota { color: #48647e; }
+    nav a { margin-right: 14px; font-size: 15px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+    table, th, td { border: 1px solid #ccc; }
+    th, td { padding: 8px; text-align: left; font-size: 15px; }
+    th { background: #f2efe6; }
+    button { background: #c69c2e; border: none; padding: 10px 18px; font-size: 15px; cursor: pointer; border-radius: 4px; }
+    #mensaje { font-weight: bold; color: #0e1b3b; margin-top: 10px; }
+    object { border: 1px solid #ccc; }
+  </style>
 </head>
-
 <body>
 
-    <header>
-        <h1>EL RINCON AURIAZUL</h1>
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#colecciones">Colecciones</a>
-            <a href="#club">El Club</a>
-            <a href="#datos">Datos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+  <header>
+    <h1>Pumas UNAM &mdash; El Rincón Auriazul</h1>
+    <p class="nota">Nombre del estudiante: Emiliano Merlín Sámano</p>
+    <nav>
+      <a href="#historia">Historia</a>
+      <a href="#streetwear">Streetwear</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#informacion">Información</a>
+      <a href="#app">Aplicación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-    <section class="hero" id="inicio">
-        <h2>Mas que un jersey, un estilo de porra</h2>
-        <p>Tienda y sitio informativo para la aficion de Pumas UNAM. Ropa streetwear, oversized, baggy y accesorios Y2K,
-            ademas de datos del equipo.</p>
-        <a href="#colecciones" class="btn">Explorar coleccion</a>
-        <a href="#club" class="btn2">Conocer al club</a>
+  <main>
+
+    <section id="historia">
+      <h2>Historia</h2>
+      <p>Pumas UNAM es el equipo de fútbol de la <strong>Universidad Nacional Autónoma de México</strong>, fundado en 1954 dentro de Ciudad Universitaria. Sus colores, <strong>azul y oro</strong>, le dan el apodo de "auriazul" y son la base de la identidad visual de este sitio.</p>
+
+      <h3>Trofeos</h3>
+      <p>A lo largo de su historia, Pumas ha ganado <strong>7 títulos de liga</strong>, además de copas internacionales como la Concachampions. Es uno de los equipos con más tradición del futbol mexicano.</p>
     </section>
 
-    <section id="colecciones">
-        <h3>Colecciones</h3>
-        <table>
-            <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-                <th>Tallas</th>
-                <th>Color</th>
-            </tr>
-            <tr>
-                <td>Sudadera Oversized Puma 54</td>
-                <td>$690</td>
-                <td>S - XXL</td>
-                <td>Auriazul</td>
-            </tr>
-            <tr>
-                <td>Pants Baggy Cargo</td>
-                <td>$620</td>
-                <td>28 - 36</td>
-                <td>Onix</td>
-            </tr>
-            <tr>
-                <td>Jersey Retro Edicion CU</td>
-                <td>$850</td>
-                <td>S - XL</td>
-                <td>Azul y dorado</td>
-            </tr>
-            <tr>
-                <td>Gorra Y2K</td>
-                <td>$310</td>
-                <td>Unica</td>
-                <td>Plata y dorado</td>
-            </tr>
-        </table>
+    <section id="streetwear">
+      <h2>Streetwear</h2>
+      <p>El Rincón Auriazul no solo vende jerseys: la propuesta también incluye ropa <strong>oversized</strong>, pants <strong>baggy</strong> y accesorios con estética <strong>Y2K</strong>.</p>
 
-        <div class="oferta">
-            <strong>Nueva coleccion Y2K disponible por tiempo limitado</strong>
-            <br>
-            <a href="#colecciones">Comprar ahora</a>
-        </div>
+      <h3>Checklist antes de comprar</h3>
+      <ol>
+        <li>Revisa la guía de tallas.</li>
+        <li>Elige el color: Auriazul u Ónix.</li>
+        <li>Confirma el método de entrega.</li>
+      </ol>
+
+      <h3>Categorías disponibles</h3>
+      <ul>
+        <li>Jerseys &amp; Retro</li>
+        <li>Oversized</li>
+        <li>Baggy &amp; Cargo</li>
+        <li>Y2K Accesorios</li>
+      </ul>
     </section>
 
-    <section id="club">
-        <h3>El Club</h3>
-        <div class="club-info">
-            <p>Pumas UNAM nacio en 1954 dentro de Ciudad Universitaria y juega en el Estadio Olimpico Universitario. El
-                azul y el oro son los colores del equipo y tambien la identidad de la tienda.</p>
-            <p>Fundacion: 1954 &nbsp;|&nbsp; Titulos de liga: 7 &nbsp;|&nbsp; Aforo del estadio: 72,000 &nbsp;|&nbsp;
-                Sede: Ciudad Universitaria</p>
-        </div>
+    <section id="catalogo">
+      <h2>Catálogo</h2>
+      <table>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Tallas</th>
+          <th>Color</th>
+        </tr>
+        <tr>
+          <td>Sudadera Oversized Puma 54</td>
+          <td>$690</td>
+          <td>S - XXL</td>
+          <td>Auriazul</td>
+        </tr>
+        <tr>
+          <td>Pants Baggy Cargo</td>
+          <td>$620</td>
+          <td>28 - 36</td>
+          <td>Ónix</td>
+        </tr>
+        <tr>
+          <td>Jersey Retro Edición CU</td>
+          <td>$850</td>
+          <td>S - XL</td>
+          <td>Azul y dorado</td>
+        </tr>
+        <tr>
+          <td>Gorra Y2K</td>
+          <td>$310</td>
+          <td>Única</td>
+          <td>Plata y dorado</td>
+        </tr>
+      </table>
     </section>
 
-    <section id="datos">
-        <h3>Datos y resultados</h3>
-        <p>Ultimos resultados (se ira actualizando mas adelante):</p>
-        <ul>
-            <li>Pumas vs Toluca: 2-1 (Victoria)</li>
-            <li>Necaxa vs Pumas: 1-1 (Empate)</li>
-            <li>Pumas vs America: 0-1 (Derrota)</li>
-            <li>Pumas vs Queretaro: 3-0 (Victoria)</li>
-        </ul>
+    <section id="informacion">
+      <h2>Información en PDF</h2>
+      <p>Ficha informativa del proyecto, incrustada directamente en la página:</p>
+      <object data="rincon-auriazul-info.pdf" type="application/pdf" width="100%" height="420">
+        <p>Tu navegador no puede mostrar el PDF directamente.
+          <a href="rincon-auriazul-info.pdf">Descárgalo aquí</a>.
+        </p>
+      </object>
+    </section>
+
+    <section id="app">
+      <h2>Aplicación sencilla</h2>
+      <button onclick="mostrarMensaje()">Ver frase de la porra</button>
+      <p id="mensaje"></p>
+      <script>
+        function mostrarMensaje() {
+          document.getElementById('mensaje').textContent = "¡Vamos Pumas, el auriazul nunca se rinde!";
+        }
+      </script>
     </section>
 
     <section id="contacto">
-        <h3>Contacto</h3>
-        <p>Deja tu correo para avisos de nuevas colecciones:</p>
-        <input type="email" placeholder="tu correo">
-        <button>Suscribirme</button>
+      <h2>Contacto</h2>
+      <p>Enlace a otra página (sitio externo): <a href="https://pumas.mx/" target="_blank" rel="noopener">Sitio oficial de Pumas UNAM</a></p>
+      <p>Enlace a una sección de esta misma página: <a href="#historia">Volver a Historia</a></p>
     </section>
 
-    <footer>
-        <a href="#colecciones">Tienda</a>
-        <a href="#club">Club</a>
-        <a href="#contacto">Contacto</a>
-        <p>El Rincon Auriazul - Emiliano Merlin Samano - 2026</p>
-    </footer>
+  </main>
+
+  <footer>
+    <p>El Rincón Auriazul — Proyecto de Diseño Web — Instituto Tecnológico de Minatitlán — 2026</p>
+  </footer>
 
 </body>
-
 </html>
